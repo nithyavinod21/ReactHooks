@@ -42,7 +42,7 @@ function App() {
         <h4>Value of Count :{count}</h4>
      </header>
      <button onClick ={()=>setCount(count+1)} >Increase Count</button>
-     <button onClick ={()=>setCount(count-1)} >Increase Count</button>
+     <button onClick ={()=>setCount(count-1)} >Decrease Count</button>
      <button onClick={multiplyCount} >Multiply Num</button>
 
      <button onClick={setArray}>Add Number</button>
